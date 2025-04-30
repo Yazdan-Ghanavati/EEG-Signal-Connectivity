@@ -1,7 +1,7 @@
 # EEG Signal Connectivity Analysis 
 
 ## Overview
-This repository contains the analysis of functional connectivity in EEG signals recorded from Patient S001. The project utilizes Phase Locking Value (PLV) and Phase Lag Index (PLI) metrics to study brain region interactions across six different EEG signals, recorded during a resting-state condition. The analysis focuses on understanding how these metrics reveal insights into the connectivity strength and directionality between various brain regions.
+This repository contains the analysis of functional connectivity in EEG signals recorded from Patient S001. The project utilizes Phase Locking Value (PLV) and Phase Lag Index (PLI) metrics to study brain region interactions across six different EEG signals, recorded during a resting-state condition. The analysis focuses on understanding how these metrics reveal insights into the connectivity strength and directionality between various brain regions. **The EEG data used in this analysis was collected from Physionet**.
 
 ## Objectives
 The goal of this project is to investigate functional connectivity using EEG signals and to provide insights into how different regions of the brain interact in a resting-state condition. The report includes visualizations such as heatmaps and bar plots to represent connectivity strengths, and it discusses the implications of the findings.
@@ -36,4 +36,5 @@ The analysis reveals insights into the functional connectivity of the brain:
 - Pandas
 - MNE (for EEG processing)
 
-
+### Data Source
+The EEG data used for this analysis was obtained from [Physionet](https://physionet.org), a platform offering accessible biomedical datasets.
